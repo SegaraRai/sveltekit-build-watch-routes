@@ -1,0 +1,16 @@
+{
+  "name": "sveltekit-build-watch-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "6.0.5",
+    "@sveltejs/kit": "3.4.0",
+    "@sveltejs/vite-plugin-svelte": "7.3.1",
+    "svelte": "5.59.1",
+    "vite": "8.3.8"
+  }
+}
